@@ -1,3 +1,42 @@
 * {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,'Times New Roman', Times, serif;
+}
+
+body {
     background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    background-color: gray;
+    height: 80vh;
+    width: 80vh;
+    border-radius: 25px;
+}
+
+.output {
+    height: 20%;
+    background-color: white;
+    border-radius: 25px;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.output>p {
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.buttons>* {
+    flex: auto;
+    height: 10vh;
+    width: 10vh;
 }
